@@ -4,6 +4,8 @@ int main(){
     scanf("%c",&ch);
     if(ch == 'a','i','o','e','u')
     printf("Vowel");
-    else
+    else if (ch!= 'a','i','e','o','u')
     printf("Consonant");
+    else
+    printf("Digit");
 }
