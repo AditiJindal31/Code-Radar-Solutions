@@ -2,7 +2,7 @@
 int main(){
     int K;
     scanf("%d",&K);
-    if(n%2==0)
+    if(K % 2 == 0)
     printf("Even");
     else
     printf("Odd");
