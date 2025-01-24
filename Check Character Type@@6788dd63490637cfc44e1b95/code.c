@@ -4,7 +4,7 @@ int main(){
     scanf("%c",&ch);
     if(ch == 'a','i','o','e','u')
     printf("Vowel");
-    else if (ch == '1 to 26')
+    else if (ch == '1' to '26')
     printf("Digit");
     else
     printf("Consonant");
