@@ -2,10 +2,10 @@
 int main(){
     char ch;
     scanf("%c",&ch);
-    if(ch != 'a','i','o','e','u')
-    printf("Consonant");
-    else if (ch == 'a','e','i','o','u')
-    printf("Vowel" );
+    if(ch ==  'a','i','o','e','u')
+    printf("Vowel");
+    else if (ch != 'a','e','i','o','u')
+    printf("Consonant" );
     else
     printf("Digit");
 }
