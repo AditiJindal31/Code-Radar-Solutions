@@ -12,7 +12,7 @@ int main(){
     printf("Thrusday");
     else if(a==5)
     printf("Friday");
-    else if(a==6);
+    else if(a==6)
     printf("Saturday");
     else if(a=7)
     printf("Sunday");
