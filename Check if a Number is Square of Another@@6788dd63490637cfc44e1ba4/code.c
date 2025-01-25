@@ -2,7 +2,7 @@
 int main(){
     int a,b;
     scanf("%d%d",&a,&b);
-    if( b==sqrt(a))
+    if( a==sqrtb)
     printf("Yes");
     else
     printf("No");
