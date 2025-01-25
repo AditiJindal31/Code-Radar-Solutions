@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int a,b;
+    int a,b=1,0;
     scanf("%d%d",&a,&b);
     if(a>=18)
     printf("Eligible");
