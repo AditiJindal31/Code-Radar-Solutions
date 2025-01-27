@@ -9,5 +9,5 @@ int main(){
     else if
     printf("Scalene");
     else
-    printf("");
+    printf(".");
 }
