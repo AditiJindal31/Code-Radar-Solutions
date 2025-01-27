@@ -7,5 +7,5 @@ int main(){
     else if(a = b = c)
     printf("Equilateral");
     else
-    printf("Scalene");
+    printf("Scalene")
 }
