@@ -8,4 +8,6 @@ int main(){
     printf("Equilateral");
     else if
     printf("Scalene");
+    else
+    printf("");
 }
