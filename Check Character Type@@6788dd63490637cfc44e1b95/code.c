@@ -4,7 +4,7 @@ int main(){
     scanf("%c",&CH);
     if( CH== 'a','e','i','o','u')
      printf("Vowel");
-     else if ( a== z)
+     else if ( CH == z)
      else if( CH != 'a','e','i','o','u')
      printf("Consonant");
      else if( CH > 1 && CH <100)
