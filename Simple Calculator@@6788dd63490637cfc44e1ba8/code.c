@@ -2,5 +2,4 @@
 int main(){
     int a,b , o;
     scanf("%d%d%d",&a,&b,&o);
-    printf("%d%d%d",a,b,o);
 }
