@@ -1,7 +1,10 @@
-#include<stdio.h>
-int main(){
-    int N,i ;
-    scanf("%d",&N);
-    for(i=1 ; i<=N; i++)
-    printf("%d",N);
+#include <stdio.h>
+
+char* welcome() {
+    return "Welcome to Code Radar!";
+}
+
+int main() {
+    printf("%s", welcome());
+    return 0;
 }
