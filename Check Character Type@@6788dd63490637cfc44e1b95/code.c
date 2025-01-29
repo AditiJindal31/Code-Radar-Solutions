@@ -8,7 +8,7 @@ int main(){
      printf("Consonant");
     //  else if( CH != 'a','e','i','o','u')
     //  printf("Consonant");
-     else if( CH > 1 && CH <100)
+     else if( CH >= 1 && CH <= 100)
      printf("Digit");
      else
      printf("Special Character");
