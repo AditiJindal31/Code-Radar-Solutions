@@ -8,5 +8,5 @@ int main(){
     scanf("%d",&age);
     printf("Name: %s\n",str1 );
     printf("Age: %d\n",age);
-     printf("Hobby: %s",str2);
+    printf("Hobby: %s",str2);
 }
