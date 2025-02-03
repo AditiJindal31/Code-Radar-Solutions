@@ -2,13 +2,13 @@
 int main(){
     int a,b;
     scanf("%d%d",&a,&b);
-    if ( int o == +)
+    if ( int o == ( + ))
     printf("%d", a+b);
-    else if( o == -)
+    else if( o == (-))
     printf("%d", a-b);
-    else if( o == * )
+    else if( o == (*) )
     printf( "%d", a*b);
-    else if( o== /)
+    else if( o== (/))
     printf("%d", a/b);
     else
     printf("Error");
