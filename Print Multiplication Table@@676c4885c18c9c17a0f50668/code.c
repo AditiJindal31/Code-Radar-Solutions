@@ -2,9 +2,10 @@
 int main(){
     int N ,K, i;
     scanf("%d",&N);
-    for( int i=1; i<=10; i++){
-         N * [i] = K;
-        printf( K = %d \n, N*i);
+    for( int i=1; i<=N; i++){
+        for(j=1; j<=n;j++){
+        printf( " %d \n", i*j);
     }
-//    printf( "N * i = %d",N*i);
+printf("\n");
+}
 }
