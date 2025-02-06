@@ -16,8 +16,7 @@ int main(){
         printf("%d",result);
     }
     else if(operator == '/'){
-        if{
-        b!=0;
+        if(b!=0){
         result=a/b;
         printf("%d",result);
     }
