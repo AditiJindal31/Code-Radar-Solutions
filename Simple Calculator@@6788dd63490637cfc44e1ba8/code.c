@@ -2,7 +2,7 @@
 int main(){
     int a,b,result;
     char operator;
-    scanf("%d%d%c",&a,&b,&operator,&result);
+    scanf("%d%d%c",&a,&b,&operator);
     if( operator == +);
     {   result= a+b;
         printf("%d",result)
@@ -22,6 +22,6 @@ int main(){
     }
     else
     {
-        printf("Error");
+        printf("error");
     }
 }
