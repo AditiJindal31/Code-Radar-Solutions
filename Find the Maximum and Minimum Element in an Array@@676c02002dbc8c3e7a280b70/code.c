@@ -2,7 +2,7 @@
 int main(){
 int n;
 printf("Enter number = ");
-scanf("%d",&n);
+scanf("%d ",&n);
 int arr[n];
 for(int i=0;i<=n;i++){
     scanf("%d",&arr[i]);
