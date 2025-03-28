@@ -1,12 +1,14 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(){
-    int N;
-    char i,j;
-    scanf("%d",&N);
-    for(i="A";i<=N;i++){
-        for(j="A";j<=i;j++){
-            printf("%c ",j);
-        }
-        printf("\n");
+int n,i;
+scanf("%d,&n");
+int arr[n];
+for(i=1;i<=n;i++){
+    int a=65;
+    for(j=1;j<=a;j++){
+        printf("%d",a);
+        a++;
     }
+    prinf("\n");
+}
 }
