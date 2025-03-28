@@ -8,6 +8,6 @@ for(int i=1;i<=N;i++){
         printf("%d",&a);
     }
     a++;
-    printf("\n");
 }
+printf("\n");
 }
