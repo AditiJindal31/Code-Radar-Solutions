@@ -9,6 +9,5 @@ for(i=1;i<=n;i++){
         printf("%d",a);
         a++;
     }
-    prinf("\n");
 }
 }
