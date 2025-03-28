@@ -11,4 +11,5 @@ for(int i=1;i<=N;i++){
      a++;
     printf("\n");
 }
+return 0;
 }
