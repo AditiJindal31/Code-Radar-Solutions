@@ -1,18 +1,18 @@
 #include<stdio.h>
 int main(){
-    int N,even count=0,odd count=0;
-    scanf("%d",&N);
-    int arr[N];
+    int N,even_count=0,odd_count=0;
+    scanf("%d",&n);
+    int arr[n];
     for(int i=0;i<=n;i++){
         printf("%d",arr[i]);
     }
     for(int i=0;i<=n;i++){
         if(i%2==0){
-            even count= even count +arr[i];
-            printf("%d", even count);
+            even count= even_count +arr[i];
+            printf("%d", even_count);
         }
-        if(i%2!=0){ odd count = odd count +arr[i];
-           printf("%d",odd count);}
+        if(i%2!=0){ odd_count = odd_count +arr[i];
+           printf("%d",odd_count);}
 
     }
     for(int i=0;i<=n;i++){
