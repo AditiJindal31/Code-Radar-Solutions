@@ -1,5 +1,5 @@
 #include<stdio.h>
-void fibbo(){
+void fibonacciSeries(n){
     next=a+b;
     a=b;
     next=b;
@@ -10,7 +10,7 @@ int main(){
     scanf("%d",&n);
     for(int i=0;i<=n;i++){
         printf("%d",a);
-        fibbo();
+        fibonacciSeries();
     }
     return 0;
 }
