@@ -1,6 +1,6 @@
 #include<stdio.h>
 void fibonacciSeries(n){
-    int n,a=0,b=1,next;
+    int a=0,b=1,next;
     scanf("%d",&n);
     for(int i=0;i<=n;i++){
         printf("%d",a);
@@ -9,4 +9,5 @@ void fibonacciSeries(n){
         next=b;
     }
     return 0;
+}
         
