@@ -9,10 +9,9 @@ int main(){
     }
     for(int i=0;i<n;i++){
         if(arr[i]%2==0){
-            even_count= even_count +arr[i];
             even_count++;
         }
-        if(arr[i]%2!=0){ odd_count = odd_count +arr[i];
+        else { 
         odd_count++;
 
     }
