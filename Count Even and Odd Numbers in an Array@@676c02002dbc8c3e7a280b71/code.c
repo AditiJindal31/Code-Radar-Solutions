@@ -12,10 +12,11 @@ int main(){
             even_count++;
         }
         else { 
-        odd_count++;
+         odd_count++;
 
-    }
-     printf("%d %d ", even_count,odd_count);
+             }
+     printf("%d \n", even_count);
+     printf("%d ",odd_count);
     return 0;
 }
 }
