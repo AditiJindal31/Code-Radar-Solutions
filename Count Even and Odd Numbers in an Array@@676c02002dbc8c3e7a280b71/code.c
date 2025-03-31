@@ -19,3 +19,4 @@ int main(){
      printf("%d %d ", even_count,odd_count);
     return 0;
 }
+}
