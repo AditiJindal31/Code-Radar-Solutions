@@ -4,14 +4,15 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
+        scanf("%d",&arr[i]);
         printf("%d",arr[i]);
     }
     for(int i=0;i<n;i++){
         if(i%2==0){
-            even_count= even_count +arr[n];
+            even_count= even_count +arr[i];
             printf("%d ", even_count);
         }
-        if(i%2!=0){ odd_count = odd_count +arr[n];
+        if(i%2!=0){ odd_count = odd_count +arr[i];
            printf("%d ",odd_count);}
 
     }
