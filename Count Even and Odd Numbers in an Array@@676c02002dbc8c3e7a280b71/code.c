@@ -4,12 +4,12 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
-        printf("%d",i+1);
+        // printf("%d",i+1);
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
         if(arr[i]%2==0){
-            even_count++;
+         even_count++;
         }
         else { 
          odd_count++;
