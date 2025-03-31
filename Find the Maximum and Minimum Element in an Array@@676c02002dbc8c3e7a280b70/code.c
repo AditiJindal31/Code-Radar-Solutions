@@ -18,7 +18,8 @@ for(int i=0;i<n;i++){
     if(min >=arr[i]){
         min=arr[i];
     }
-    printf("%d ",min);
+    // printf("%d ",min);
 }
+ printf("%d ",min);
 return 0;
 }
