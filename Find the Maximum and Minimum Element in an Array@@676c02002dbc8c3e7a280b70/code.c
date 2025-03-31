@@ -21,7 +21,7 @@ for(int i=0;i<n;i++){
     }
     // printf("%d ",min);
 }
- printf("%d ",max);
  printf("%d ",min);
+ printf("%d ",max);
 return 0;
 }
